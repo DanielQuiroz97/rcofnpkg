@@ -1,0 +1,31 @@
+---
+title: "tutorial"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# Some title
+
+```{r setup}
+library(rcofnpkg)
+library(dplyr)
+```
+
+
+```{r}
+spain <- uss_make_matches(engsoccerdata::england)
+spain
+```
+
+
