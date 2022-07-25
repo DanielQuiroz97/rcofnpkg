@@ -4,6 +4,8 @@
 # rcofnpkg
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/DanielQuiroz97/rcofnpkg/workflows/R-CMD-check/badge.svg)](https://github.com/DanielQuiroz97/rcofnpkg/actions)
 <!-- badges: end -->
 
 The goal of rcofnpkg is to …
