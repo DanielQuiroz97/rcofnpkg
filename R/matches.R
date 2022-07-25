@@ -1,3 +1,12 @@
+#' Makes standards datagramse
+#'
+#' @param data_engsoc data.frame from engsoc soccer data
+#'
+#' @return data.frame, tibble with prcessed data
+#' @export
+#'
+#' @examples
+#' uss_make_matches(engsoccerdata::italy)
 uss_make_matches <- function(data_engsoc) {
   result <-
     data_engsoc |>
